@@ -5,7 +5,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/
 ## Checking Internet 
 ping -c 2 google.com &>/dev/null 
 if [ $? -ne 0 ]; then 
-    echo "Internet connection is now working.. Check it .. !!"
+    echo "Internet connection is not working.. Check it .. !!"
     exit 1
 fi
 ## Common Functions 
